@@ -5,9 +5,9 @@ await client.connect({
     db: "organiza",
     tls: true,
     servers: [
-        { host: "organiza-shard-00-02.xen4l.mongodb.net", port: 27017 },
         { host: "organiza-shard-00-01.xen4l.mongodb.net", port: 27017 },
         { host: "organiza-shard-00-02.xen4l.mongodb.net", port: 27017 },
+        { host: "organiza-shard-00-03.xen4l.mongodb.net", port: 27017 },
     ],
     credential: {
         username: "admin1",
